@@ -1,1 +1,1 @@
-# stepper-iteration
+# logo-animation

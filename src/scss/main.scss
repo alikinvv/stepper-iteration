@@ -1,0 +1,110 @@
+@charset 'UTF-8';
+@import 'mixins';
+
+/*** MIXINS USAGE ***
+
+	@include font-face('fontName', '../fonts/fontPath/fontName', normal); 
+
+	@include xs(12);
+	@include sm(12);
+	@include md(12);
+	@include lg(12);
+
+	@include r(768);
+	@include rmin(768);
+
+	@include trans / trans($what $dur $easing);
+	@include cover;
+
+	@include centerX / centerXa
+	@include centerY / centerYa
+
+	@include overlay($opacity)
+***/
+
+.icon {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	font-size: 30px;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #231F20;
+	font-size: 20px;
+	background: #FFF3F5;
+}
+
+.wrap {
+	position: relative;
+}
+
+.stepper {
+	margin-top: -65px;
+	margin-left: -65px;
+	width: 30px;
+	height: 30px;
+	background: #FF4957;
+	cursor: pointer;
+	width: 130px;
+	height: 130px;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 64px;
+	position: relative;
+	box-shadow: -1px 57px 80px -17px rgba(255, 73, 87, 0.25);
+	overflow: hidden;
+	z-index: 2;
+
+	span {
+		user-select: none;
+		position: absolute;
+		top: 28px;
+		left: 50%;
+		transform: translateY(0) translateX(-50%);
+
+		&.active {
+			transform: translateY(0) translateX(-50%);
+		}
+
+		&.hide {
+			opacity: 0;
+		}
+	}
+}
+
+.pos {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.arrow-top {
+	position: absolute;
+	top: -120px;
+	left: 0;
+	transform: translateX(-50%);
+	user-select: none;
+	width: 50px;
+}
+
+.arrow-bottom {
+	position: absolute;
+	bottom: -57px;
+	left: 0;
+	transform: translateX(-50%);
+	user-select: none;
+	width: 50px;
+}
