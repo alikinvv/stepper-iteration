@@ -46,6 +46,8 @@ body {
 
 .wrap {
 	position: relative;
+	margin-left: 65px;
+    margin-top: 65px;
 }
 
 .stepper {
@@ -83,12 +85,6 @@ body {
 			opacity: 0;
 		}
 	}
-}
-
-.pos {
-	position: absolute;
-	top: 40px;
-	left: 40px;
 }
 
 .arrow-top {
