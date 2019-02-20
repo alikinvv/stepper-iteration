@@ -6,4 +6,4 @@
 
 ## [Live Demo](https://alikinvv.github.io/stepper-iteration/build)
 
-![search animation](https://cdn.dribbble.com/users/1773016/screenshots/5737183/2.gif)
+![stepper iteration](https://cdn.dribbble.com/users/1773016/screenshots/5737183/2.gif)
