@@ -8,4 +8,4 @@
 
 ![stepper iteration](https://cdn.dribbble.com/users/1773016/screenshots/5737183/2.gif)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-31485994-5/stepper-iteration)](https://github.com/alikinvv/stepper-iteration)
+[![Analytics](https://ga-beacon.appspot.com/UA-31485994-5/stepper-iteration-repo)](https://github.com/alikinvv/stepper-iteration)
